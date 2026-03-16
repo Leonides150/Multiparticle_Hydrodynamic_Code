@@ -1,0 +1,12 @@
+Whole cell :
+200p
+\phi = 0.018
+\phi = 0.3
+\phi = 0.4 or 0.35
+
+
+
+Half-shifted cell :
+500 p
+\phi = 0.2
+\phi = 0.4

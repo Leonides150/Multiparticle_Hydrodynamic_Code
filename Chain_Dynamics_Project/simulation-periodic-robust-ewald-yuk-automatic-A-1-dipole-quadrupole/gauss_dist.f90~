@@ -1,0 +1,59 @@
+subroutine gauss_assign(gauss_vel)
+  use main_module
+  use gauss_para
+  implicit none
+  integer :: i,k
+  real*8 :: t,g
+  !logical :: gauss_flag =.TRUE.
+  
+  write(*,*)'numpar=',numpar
+  !  if(gauss_flag)then
+  do i=1,2*numpar
+     call GAUSS(g)
+     gauss_vel(i)=g
+  end do
+  !gauss_flag=.FALSE.
+  ! end if
+  
+end subroutine gauss_assign
+  
+  SUBROUTINE GAUSS(G)
+    IMPLICIT NONE
+    REAL*8 G
+    real*8 ::PI=3.141592653589793D0
+    REAL*8 A,B
+    
+    CALL RNG(A)
+    CALL RNG(B)
+    
+    G=SQRT(-2*LOG(A)) * COS(2*PI*B)
+    
+    RETURN
+  END SUBROUTINE GAUSS
+  
+  SUBROUTINE SRNG(SD)
+    IMPLICIT NONE
+    INTEGER SD
+    !     INTEGER SID                ! f77
+    INTEGER SID(33)             ! lf95
+    
+    !     SID=SD                     ! f77
+    !  SID(1)=SD                  ! lf95
+    SID=SD                !  gfortran
+    
+    !     CALL SRAND(SID)            ! f77
+    CALL RANDOM_SEED(put=SID)  ! lf95
+    
+    RETURN
+  END SUBROUTINE SRNG
+  
+  SUBROUTINE RNG(A)
+    IMPLICIT NONE
+    REAL*8 A
+    
+    !     A=RAND()                ! f77
+    CALL RANDOM_NUMBER(A)   ! lf95
+    
+    RETURN
+  END SUBROUTINE RNG
+  
