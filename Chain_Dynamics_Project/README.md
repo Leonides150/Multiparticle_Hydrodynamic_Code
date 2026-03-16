@@ -1,1 +1,2 @@
-# This version pertains to studying the particle chain dynamics in the presence of both symmetric forces e.g., via Hele--Shaw (H.S.) Quadrupoles, and swapped trajectory mechanisms and antisymmetric forces e.g., Hele--Shaw Dipoles, and near-field exluded volume potentials.
+# Version to study particle dynamics under symmetric and antisymmetric hydrodynamic components
+This version pertains to studying the particle chain dynamics in the presence of both symmetric forces e.g., via Hele--Shaw (H.S.) Quadrupoles, and swapped trajectory mechanisms and antisymmetric forces e.g., Hele--Shaw Dipoles, and near-field exluded volume potentials.
