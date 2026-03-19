@@ -1,0 +1,68 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Self-Assembly in stokes flow\relax }}{3}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{3}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{3}{subfigure.1.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Formation of string like structures\relax }}{4}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{4}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{4}{subfigure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ordered assembly in hard particles in the presence of inertia\relax }}{5}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{5}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{5}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{5}{subfigure.3.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Self-assembly of RBCs under confinement\relax }}{6}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{6}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{6}{subfigure.4.2}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces System schematics and formation of linear arrays in healthy RBCs and lack of emergence of such order in the case of infected/dead(non-deformable) RBCs\relax }}{7}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{7}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{7}{subfigure.5.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System description and mechanisms for particle interactions - Subfig.\nobreakspace {}\ref {Schematic-subfig-1} shows the system schematic where a single droplet layer suspended between two parallel walls, the mid-plane is at z=0 and flow-direction is taken as x axis. Subfig.\nobreakspace {}\ref {Schematic-subfig-2} and \nobreakspace {}\ref {Schematic-subfig-3} describe the streamlines (from FD/FT simulations) around a confined drop in x-y and x-z plane respectively, when subjected to an incident couette flow and their effect on particle interactions.\relax }}{10}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {System schematic}}}{10}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Quadrupolar flow-field and particle interactions}}}{10}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Swapping trajectory effect and particle interactions}}}{10}{subfigure.1.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of a particle pair along flow-direction - Subfigs. \nobreakspace {}\ref {2p_flow-subfig-1}\nobreakspace {}\ref {2p_flow-subfig-3} and \nobreakspace {}\ref {2p_flow-subfig-5} show the particle evolution from the 2-D simulations; \nobreakspace {}\ref {2p_flow-subfig-2}\nobreakspace {}\ref {2p_flow-subfig-4} and \nobreakspace {}\ref {2p_flow-subfig-6} show the particle evolution from the 3-D simulations in the flow-vorticity plane.\relax }}{17}{figure.caption.55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial time Snapshot,2-D model}}}{17}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Initial time Snapshot,3-D model}}}{17}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Short time Snapshot,2-D model}}}{17}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Short time Snapshot,3-D model}}}{17}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Long-time Snapshot,2-D model}}}{17}{subfigure.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Long-time Snapshot,3-D model}}}{17}{subfigure.1.6}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolution of a particle pair along gradient-direction - Subfigs. \nobreakspace {}\ref {2p_grad-subfig-1},\nobreakspace {}\ref {2p_grad-subfig-2} and \nobreakspace {}\ref {2p_grad-subfig-3} show particle evolution from the 3-D model in the flow-gradient plane. \nobreakspace {}\ref {2p_grad-subfig-4} displays the particle trajectories in the flow-gradient plane. \nobreakspace {}\ref {2p_grad-subfig-5} shows the relative trajectory the pair in the same plane.\relax }}{17}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial time,3-D model}}}{17}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Short time,3-D model}}}{17}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Final time,3-D model}}}{17}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Particle trajectories}}}{17}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Relative trajectories}}}{17}{subfigure.2.5}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Evolution of a multi-particle system along flow-direction - Subfigs. \nobreakspace {}\ref {4p_flow-subfig-1},\nobreakspace {}\ref {4p_flow-subfig-3}, \nobreakspace {}\ref {4p_flow-subfig-5} show the progression of particle locomotion via their individual pair-interactions from the 2-D model; \nobreakspace {}\ref {4p_flow-subfig-2}\nobreakspace {}\ref {4p_flow-subfig-4}\nobreakspace {}\ref {4p_flow-subfig-6} shows the time adjusted snapshots for the same from the 3-D model in the flow-vorticity plane.\relax }}{19}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial time 2-D model}}}{19}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Initial time 3-D model}}}{19}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Short time 2-D model}}}{19}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Short time 3-D model}}}{19}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Long time 2-D model}}}{19}{subfigure.3.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Long time 3-D model}}}{19}{subfigure.3.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {3-D vs 2-D models - rate of change of relative separation of inner and outer pairs}}}{19}{subfigure.3.7}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Evolution of a multi-particle system along gradient-direction - Subfigs. \nobreakspace {}\ref {4p_grad-subfig-1}, \nobreakspace {}\ref {4p_grad-subfig-2}, \nobreakspace {}\ref {4p_grad-subfig-3} and \nobreakspace {}\ref {4p_grad-subfig-4} show snapshots of system evolution in the flow-gradient plane; \nobreakspace {}\ref {4p_grad-subfig-5} and \nobreakspace {}\ref {4p_grad-subfig-6} depict the individual trajectories from the 3-D model and FD/FT simulations in the flow-gradint plane respectively.\relax }}{20}{figure.caption.77}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial time 3-D model}}}{20}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Short time 3-D model}}}{20}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Intermediate time 3-D model}}}{20}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Long time 3-D model}}}{20}{subfigure.4.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {3-D model particle trajectories}}}{20}{subfigure.4.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {FD/FT simulations particle trajectories}}}{20}{subfigure.4.6}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Evolution of a multi-particle system in the flow-vorticity plane - Subfigs. \nobreakspace {}\ref {4p_flow-subfig-1},\nobreakspace {}\ref {4p_flow-subfig-3}, \nobreakspace {}\ref {4p_flow-subfig-5} and \nobreakspace {}\ref {4p_flow-subfig-7} show the progression of particle evolution via their individual pair-interactions from the 2-D model; while \nobreakspace {}\ref {4p_flow-subfig-2}\nobreakspace {}\ref {4p_flow-subfig-4}\nobreakspace {}\ref {4p_flow-subfig-6} and \nobreakspace {}\ref {4p_flow-subfig-8} shows the time adjusted snapshots for the same from the 3-D model in the flow-vorticity plane.\relax }}{21}{figure.caption.84}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial time 2-D model}}}{21}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Initial time 3-D model}}}{21}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Short time 2-D model}}}{21}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Short time 3-D model}}}{21}{subfigure.5.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Intermediate time 2-D model}}}{21}{subfigure.5.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Intermediate time 3-D model}}}{21}{subfigure.5.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Long time 2-D model}}}{21}{subfigure.5.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Long time 3-D model}}}{21}{subfigure.5.8}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \nobreakspace {}\ref {Appendix-1} show particle trajectories for long inital separation from FD/FT simulations and the corresponding matching with the velocity $\mathbf {U}_{xi}$ form the Hele--Shaw model. \nobreakspace {}\ref {Appendix-2} show the ratio of far-field velocity from FD/FT simulations and quadrupolar velocity from the model simulations. \nobreakspace {}\ref {Appendix-3} shows particle trajectories for a range on initial separations $x_{12}^{(0)}/d = $ 1.05, 1.1, 1.2, 1.35, 1.5 from FD/FT simulations and matching. \nobreakspace {}\ref {Appendix-4} show the deformation induced velocity, along gradient direction, versus the particle position along the same.\relax }}{25}{figure.caption.95}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Far-field matching}}}{25}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Quadrupolar moment}}}{25}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Near field matching}}}{25}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Deformation induced velocity}}}{25}{subfigure.1.4}

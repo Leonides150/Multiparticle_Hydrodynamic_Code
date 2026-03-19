@@ -1,0 +1,24 @@
+\contentsline {chapter}{Abstract}{ii}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{v}{dummy.4}
+\contentsline {chapter}{List of Tables}{vii}{dummy.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.8}
+\contentsline {chapter}{\numberline {2}Experimental Observations}{3}{chapter.9}
+\contentsline {section}{\numberline {2.1}Stokes regime}{3}{section.10}
+\contentsline {section}{\numberline {2.2}Inertial regime}{4}{section.17}
+\contentsline {section}{\numberline {2.3}Non-Newtonian systems}{6}{section.22}
+\contentsline {chapter}{\numberline {3}Theoretical phenomenon and model}{9}{chapter.29}
+\contentsline {section}{\numberline {3.1}System description}{9}{section.30}
+\contentsline {section}{\numberline {3.2}Modelling of quadrupolar interactions - or flow-vorticity plane dynamics}{12}{section.36}
+\contentsline {section}{\numberline {3.3}Modelling of swapping trajectory interactions}{13}{section.44}
+\contentsline {section}{\numberline {3.4}System parameters for quadrupolar and swapping-trajectory interactions}{15}{section.51}
+\contentsline {chapter}{\numberline {4}Results}{16}{chapter.53}
+\contentsline {section}{\numberline {4.1}Two-particle characteristics}{16}{section.54}
+\contentsline {section}{\numberline {4.2}Multi-particle dynamics}{18}{section.68}
+\contentsline {chapter}{\numberline {5}Summary and further scope}{22}{chapter.93}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Appendix - Model parameters for trajectory match}{24}{appendix.94}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{27}{dummy.100}

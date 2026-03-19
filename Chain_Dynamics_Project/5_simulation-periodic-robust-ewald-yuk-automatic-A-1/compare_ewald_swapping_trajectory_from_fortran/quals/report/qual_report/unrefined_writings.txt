@@ -1,0 +1,15 @@
+Self-assembly is the process of formation of an organized structure or pattern from pre-existing disordered subunits, the condition being the non-involvement of external factors, driven only by internal forces and interaction occurring within the system. Based on the nature of subunits involved, it can be termed as molecular, supramolecular, or nanoparticle self-assembly. The main driving forces can be the attainment of equilibrium or minimization of free energy or inter-unit interactions; the inter-unit interactions are mostly non-covalent in nature.
+
+The  central  tenet  of  self-organization  is  that  simple  repeated  interactions  between
+individuals can produce complex adaptive patterns at the level of the group.
+I argue that the key to understanding collective behaviour lies in identifying the principles of the
+behavioural algorithms followed by individual animals and of how information flows between the
+animals. These principles, such as positive feedback, response thresholds and individual integrity, are
+repeatedly observed in very different animal societies.
+There is a sense in which all these collective patterns are  regular  and  even  predictable.
+The submergence of the individual  brings  a  new  order  to  the  group.  Nevertheless,  understanding  how  coordinated  patterns emerge from a mass of interactions between individuals poses a difficult problem. The regularity of collective animal behaviour leaves us feeling that there must be some  unifying  laws  which  govern  these  different phenomena.
+
+What these diverse systems hold in common is the proximate means by which they acquire order and structure. In self-organizing systems, pattern at the global level emerges solely from interactions among lower-level components. Remarkably, even very complex structures result from the iteration of surprisingly simple behaviors performed by individuals relying on only local information.
+
+Here, we limit the term to process-es that involve pre-existing components (sep-arate  or  distinct  parts  of  a  disordered  struc-ture), are reversible, and can be controlled byproper  design  of  the  components.
+Their  steady-state positions balance attractions and repulsions. 

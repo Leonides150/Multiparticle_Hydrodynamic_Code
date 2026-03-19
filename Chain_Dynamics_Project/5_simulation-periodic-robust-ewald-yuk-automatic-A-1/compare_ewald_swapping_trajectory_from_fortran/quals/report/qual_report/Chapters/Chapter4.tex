@@ -1,0 +1,191 @@
+\chapter{Results}\label{Results}
+In order to investigate the underlying phenomenons and their effect on the evolution of a finite system of particles we perform some numerical simulations. We initially focus on the key features observed in the dynamics of a binary-system simulated by our model and then drew comparisons with the 2-D model. Later we discuss the results obtained from the simulations results of our model for a multi-particle system to highlight the fact that the analyses for a two particle system to a reasonable extent can be expanded to reflect multiparticle behavior. Additionally, we validate our model by comparing it to the resutls from the FD/FT. Lastly, we present an argument that a more meticulous selection of model parameters can ensure replication of some innate characteristics of a large system.
+
+\section{Two-particle characteristics}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% 2 particle x
+
+\begin{figure}[!htb]
+  \subfloat[Initial time Snapshot,2-D model\label{2p_flow-subfig-1}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00001_2p_2.eps}
+  }
+  \hfill
+  \subfloat[Initial time Snapshot,3-D model\label{2p_flow-subfig-2}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00001_2p_2.eps}
+  }
+  \\
+  \subfloat[Short time Snapshot,2-D model\label{2p_flow-subfig-3}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00006_2p_2.eps}
+  }
+  \hfill
+  \subfloat[Short time Snapshot,3-D model\label{2p_flow-subfig-4}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00005_2p_2.eps}
+  }
+    \\
+    \subfloat[Long-time Snapshot,2-D model\label{2p_flow-subfig-5}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00081_2p_2.eps}
+  }
+  \hfill
+  \subfloat[Long-time Snapshot,3-D model\label{2p_flow-subfig-6}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00069_2p_2.eps}
+  }
+     
+  \caption{Evolution of a particle pair along flow-direction - Subfigs. ~\ref{2p_flow-subfig-1}~\ref{2p_flow-subfig-3} and ~\ref{2p_flow-subfig-5} show the particle evolution from the 2-D simulations; ~\ref{2p_flow-subfig-2}~\ref{2p_flow-subfig-4} and ~\ref{2p_flow-subfig-6} show the particle evolution from the 3-D simulations in the flow-vorticity plane.}
+  \label{2p_flow}    
+    
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% 2 particle z
+  
+\begin{figure}[!htb]
+  \centering
+  \subfloat[Initial time,3-D model\label{2p_grad-subfig-1}]{
+    \includegraphics[totalheight=2.5cm,trim={0 1cm 0 1cm},clip]{simulation_3D/M00001_2p_2_z.eps}
+  }
+  \hfill
+  \subfloat[Short time,3-D model\label{2p_grad-subfig-2}]{
+    \includegraphics[totalheight=2.5cm,trim={0 1cm 0 1cm},clip]{simulation_3D/M00002_2p_2_z.eps}
+  }
+  \hfill
+  \subfloat[Final time,3-D model\label{2p_grad-subfig-3}]{
+    \includegraphics[totalheight=2.5cm,trim={0 1cm 0 1cm},clip]{simulation_3D/M00010_2p_2_z.eps}
+  }
+  \\
+  \subfloat[Particle trajectories\label{2p_grad-subfig-4}]{
+    \includegraphics[totalheight=4cm,trim={0 0 0 0},clip]{simulation_3D/trajectory_flow_gradient_2p.eps}
+  }
+  \hfill
+   \subfloat[Relative trajectories\label{2p_grad-subfig-5}]{
+     \includegraphics[totalheight=4cm,trim={0 0 0 0},clip]{simulation_3D/rel-pos-flow-grad_2p.eps}
+     }
+  
+  \caption{Evolution of a particle pair along gradient-direction - Subfigs. ~\ref{2p_grad-subfig-1},~\ref{2p_grad-subfig-2} and ~\ref{2p_grad-subfig-3} show particle evolution from the 3-D model in the flow-gradient plane. ~\ref{2p_grad-subfig-4} displays the particle trajectories in the flow-gradient plane. ~\ref{2p_grad-subfig-5} shows the relative trajectory the pair in the same plane.}
+  \label{2p_grad}    
+  
+\end{figure}
+
+The simulation results for a binary-pair along the flow direction is shown in Fig. ~\ref{2p_flow}. Initially they are separated by a non-dimensional distance of $1.2$. Since this relative separation is smaller than the chartacteristic stopping distance($l_{st}$) of particles, hence the particle interaction is predominantly repulsive. In the left-column, which depicts interactions simulated by the 2-D model, we see that the effective repulsion created by the quasi-steady swapping-trajectory effect causes the particles to move away from each other and finally reach a stable equilibrium at $l_{st}$. In the new 3-D model, we observe a similar relative motion between the particle-pair along the flow-direction albeit with a difference in the time-scales. However, focussing on the Fig.~\ref{2p_grad} it can be seen that in the near-field region(relative separation $\textless$  $l_{st}$), first the swapping-trajectory effect pushes the paticles out of the mide-plane in opposite directions along the gradient direction. Later, as per the expression, the particles are driven apart which is representative of the couette flow's ability to transport them away from each other. At this point the deformation-induced circulation effect imparts velocities to the particles that tends to move then back towards the mid-plane. Finally, the particles reach equilibrium and remain stationary with a fixed separation($l_{st}$) along the flow direction which is governed by the balance between the quadrupolar flow-field and swapping-trajectory effect's repulsion. They also remain at a constant symmetric separation($h_{st}$ say) across the flow-vorticity plane and along the gradient direction which again stems from the same balance mentioned above.
+
+\section{Multi-particle dynamics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%4 particle flow direction
+\begin{figure}[!htb]
+
+  \subfloat[Initial time 2-D model\label{4p_flow-subfig-1}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00001_4p.eps}
+  }
+  \hfill
+  \subfloat[Initial time 3-D model\label{4p_flow-subfig-2}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00001_4p.eps}
+  }
+  \\
+  \subfloat[Short time 2-D model\label{4p_flow-subfig-3}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00035_4p.eps}
+  }
+  \hfill
+  \subfloat[Short time 3-D model\label{4p_flow-subfig-4}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00030_4p.eps}
+  }
+  \\
+ % \subfloat[First sub-figure\label{}]{
+ %   \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00150_4p.eps}
+ % }
+ % \hfill
+ % \subfloat[Second sub-figure\label{}]{
+ %   \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00128_4p.eps}
+ % }
+ % \\
+  \subfloat[Long time 2-D model\label{4p_flow-subfig-5}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00350_4p.eps}
+  }
+  \hfill
+  \subfloat[Long time 3-D model\label{4p_flow-subfig-6}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00338_4p.eps}
+  }
+  \\
+  \subfloat[3-D vs 2-D models - rate of change of relative separation of inner and outer pairs\label{4p_flow-subfig-7}]{
+    \includegraphics[totalheight=5cm,trim={-8cm 0 0 0},clip]{comparative_3d-2d_xpos_vs_time.eps}
+  }
+   \caption{Evolution of a multi-particle system along flow-direction - Subfigs. ~\ref{4p_flow-subfig-1},~\ref{4p_flow-subfig-3}, ~\ref{4p_flow-subfig-5} show the progression of particle locomotion via their individual pair-interactions from the 2-D model; ~\ref{4p_flow-subfig-2}~\ref{4p_flow-subfig-4}~\ref{4p_flow-subfig-6} shows the time adjusted snapshots for the same from the 3-D model in the flow-vorticity plane.}
+  \label{4p_flow}    
+  
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% 4 particle gradient direction
+
+\begin{figure}[!htb]
+
+\subfloat[Initial time 3-D model\label{4p_grad-subfig-1}]{
+    \includegraphics[totalheight=2.2cm,trim={0 2.5cm 0 2.5cm},clip]{simulation_3D/M00001_4p_z.eps}
+  }
+  \hfill
+  \subfloat[Short time 3-D model\label{4p_grad-subfig-2}]{
+    \includegraphics[totalheight=2.2cm,trim={0 2.5cm 0 2.5cm},clip]{simulation_3D/M00004_4p_z.eps}
+  }
+  \\
+  \subfloat[Intermediate time 3-D model\label{4p_grad-subfig-3}]{
+    \includegraphics[totalheight=2.2cm,trim={0 2.5cm 0 2.5cm},clip]{simulation_3D/M00026_4p_z.eps}
+  }
+  \hfill
+  \subfloat[Long time 3-D model\label{4p_grad-subfig-4}]{
+    \includegraphics[totalheight=2.2cm,trim={0 2.5cm 0 2.5cm},clip]{simulation_3D/M00091_4p_z.eps}
+  }
+  \\
+  \subfloat[3-D model particle trajectories\label{4p_grad-subfig-5}]{
+    \includegraphics[totalheight=5cm,trim={0 0 0 0},clip]{simulation_3D/trajectory_flow_gradient_4p.eps}
+  }
+  \hfill
+  \subfloat[FD/FT simulations particle trajectories\label{4p_grad-subfig-6}]{
+    \includegraphics[height=5cm,width=7cm,trim={0 1cm 0 0},clip]{simulation_3D/plot.pdf}
+  }
+
+     \caption{Evolution of a multi-particle system along gradient-direction - Subfigs. ~\ref{4p_grad-subfig-1}, ~\ref{4p_grad-subfig-2}, ~\ref{4p_grad-subfig-3} and ~\ref{4p_grad-subfig-4} show snapshots of system evolution in the flow-gradient plane; ~\ref{4p_grad-subfig-5} and ~\ref{4p_grad-subfig-6} depict the individual trajectories from the 3-D model and FD/FT simulations in the flow-gradint plane respectively.}
+  \label{4p_grad}    
+  
+\end{figure}
+
+A system consisting of a linear arrangement of four particles along the flow direction was considered to further investigate the correspondence of the model with respect to the FD/FT simulations and thus establishing its expansion capabilities. The left-column of Fig.~\ref{4p_flow} displays selected snapshots form the 2-D model. It can be seen that the individual particles move in opposite directions with respect to their initial positions around the central axis. Due to symmetry of the arrangement, the transient displacement of the inner and outer particles is the same. As per expectation, the outer pair seems to move away at a higher rate than the inner pair. This asymmetry of motion of the particles is even more pronounced in the case of the 3-D model. In fact from subfig.~\ref{4p_flow-subfig-7} it can be observed that in the 3-D model, the outer and inner particles pairs both separate at higher rates as compared to the 2-D case. Additionally, the final stagnation distances in the flow direction is slightly higher in the 3-D simulations.
+
+The evolution of the system in the flow-gradient plane, depicted in the first two rows of Fig.~\ref{4p_grad}, shows interesting dynamics. For instance, at the beginning, the center pair of particles are driven away from the mid-plane in the gradient direction and simultaeneously repelled form each other in the flow direction by the near field swapping-trajectory interactions. This repulsion readily also imparts velocities driving the outer particles out of the center. An important point to note is that the out-of-plane motion of the particles(~\ref{4p_grad-subfig-5}) on either extremes is higher than that of the the inner particles which are suppressed  due to fact that their left creates swapped-streamlines in a direction opposite to that induced by the particle on the right. Finally in long-time the system reaches saturation and it is worthwhile to note that the inner pair return to the mid-plane whereas the outer pair stagnates and a characteristic distance away from it. This can be once again attributed to the previously mentioned oppositely directed swapping-trajectory interactions from either of their neighbouring particles. Additionally, the quadrupolar interation induced attraction from the particles on either ends pull the inner ones apart from each other thereby decreasing the influcence of their mutual short-range swapping-trajectory effect. 
+
+The flow-gradient direction trajectories or individual paricles from 3-D model and FD/FT simulations are shown in subfigs.~\ref{4p_grad-subfig-5} and~\ref{4p_grad-subfig-6}. A comparison of the plots elucidates the fact that the simple 3-D model was able to replicate the essential features of the FD/FT simulations. For instance, the symmetry of the motion in the flow-gradient place, the final stagnation positions of all the individual particles. It can also be observed that quite alike the 3-D model simulations, in the FD/FT simulations too the inner-pair return to the mid-plane while the outer-pair stagnates at a distance of $d_{st}^z = 0.0296$ away from the mid-plane.
+
+\begin{figure}[!htb]
+
+  \subfloat[Initial time 2-D model\label{4p_flow-subfig-1}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00001_4p_skewed.eps}
+  }
+  \hfill
+  \subfloat[Initial time 3-D model\label{4p_flow-subfig-2}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00001_4p_skewed.eps}
+  }
+  \\
+  \subfloat[Short time 2-D model\label{4p_flow-subfig-3}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00013_4p_skewed.eps}
+  }
+  \hfill
+  \subfloat[Short time 3-D model\label{4p_flow-subfig-4}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00011_4p_skewed.eps}
+  }
+  \\
+  \subfloat[Intermediate time 2-D model\label{4p_flow-subfig-5}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00110_4p_skewed.eps}
+  }
+  \hfill
+  \subfloat[Intermediate time 3-D model\label{4p_flow-subfig-6}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00094_4p_skewed.eps}
+  }
+  \\
+  \subfloat[Long time 2-D model\label{4p_flow-subfig-7}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_2D/M00335_4p_skewed.eps}
+  }
+  \hfill
+  \subfloat[Long time 3-D model\label{4p_flow-subfig-8}]{
+    \includegraphics[totalheight=1.8cm,trim={0 3cm 0 3cm},clip]{simulation_3D/M00325_4p_skewed.eps}
+  }
+  
+   \caption{Evolution of a multi-particle system in the flow-vorticity plane - Subfigs. ~\ref{4p_flow-subfig-1},~\ref{4p_flow-subfig-3}, ~\ref{4p_flow-subfig-5} and ~\ref{4p_flow-subfig-7} show the progression of particle evolution via their individual pair-interactions from the 2-D model; while ~\ref{4p_flow-subfig-2}~\ref{4p_flow-subfig-4}~\ref{4p_flow-subfig-6} and ~\ref{4p_flow-subfig-8} shows the time adjusted snapshots for the same from the 3-D model in the flow-vorticity plane.}
+  \label{4p_skewed_flow}    
+  
+\end{figure}
+
+Simulations were also performed with four paticles initially equally spaced($1.2d$) in the flow direction and symmetrically placed out of the flow-vorticity place in either direction from the centre of the array(Fig.~\ref{4p_skewed_flow}). For this initial conditions, in the 2-D as wells as 3-D simulations, the particles move away from each other via the effective repulsion caused by the swapping trajectory effect while simultaeneously getting aligned in the flow direction due to the quadrupolar interactions.

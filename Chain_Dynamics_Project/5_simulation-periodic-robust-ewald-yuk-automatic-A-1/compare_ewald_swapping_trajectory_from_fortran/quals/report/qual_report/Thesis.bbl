@@ -1,0 +1,284 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[H.~Bäumler()]{Reference13}
+E.Donath H.~Kiesewetter H.~Bäumler, B.Neu.
+
+\bibitem[Whitesides and Grzybowski.(2002)]{Reference11}
+G.~M. Whitesides and B.~A. Grzybowski.
+\newblock Self-assembly at all scales.
+\newblock \emph{Science}, 295:\penalty0 2418--2421, 2002.
+\newblock URL
+  \url{https://pdfs.semanticscholar.org/181f/c1da57b32f192d6a034444efec845b36b4d6.pdf}.
+
+\bibitem[Kauffman(1992)]{Reference1}
+S.~A. Kauffman.
+\newblock Origins of order in evolution: Self-organization and selection.
+\newblock \emph{Understanding Origins.Boston Studies in the Philosophy and
+  History of Science}, vol 130, 1992.
+\newblock URL \url{https://doi.org/10.1007/978-94-015-8054-0_8}.
+
+\bibitem[T.(2006)]{Reference5}
+Sumpter D.~J. T.
+\newblock \emph{Philos Trans R Soc Lond B Biol Sci}, 361:\penalty0 5--22, Jan
+  2006.
+\newblock URL
+  \url{https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2005.1733}.
+
+\bibitem[Camazine et~al.(2001)Camazine, Deneubourg, Franks, Sneyd, Theraulaz,
+  and Bonabeau]{Reference6}
+S~Camazine, J-L Deneubourg, N.~R. Franks, J.~Sneyd, G.~Theraulaz, and
+  E.~Bonabeau.
+\newblock Self-organization in biological systems.
+\newblock \emph{Princeton Studies in Complexities}, 2001.
+\newblock URL
+  \url{https://press.princeton.edu/books/paperback/9780691116242/self-organization-in-biological-systems}.
+
+\bibitem[Ros~Barcelo(1997)]{Reference2}
+A.~Ros~Barcelo.
+\newblock \emph{International Review of Cytology}, 176:\penalty0 87--132, 1997.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S0074769608616095?via%3Dihub}.
+
+\bibitem[Mishra and Ekielski(2019)]{Reference3}
+P.K Mishra and A~Ekielski.
+\newblock The self-assembly of lignin and its application in nanoparticle
+  synthesis: A short review.
+\newblock \emph{Nanomaterials}, 9:\penalty0 243, 2019.
+\newblock URL \url{https://www.mdpi.com/2079-4991/9/2/243/htm}.
+
+\bibitem[Funada et~al.(2016)Funada, Yamagishi, Begum, Kudo, Nabeshima, Nugroho,
+  Hasnat, Oribe, and Nakaba]{Reference4}
+Ryo Funada, Yusuke Yamagishi, Shahanara Begum, Kayo Kudo, Eri Nabeshima,
+  Widyanto~Dwi Nugroho, Rahman Hasnat, Yuichiro Oribe, and Satoshi Nakaba.
+\newblock Chapter 2 - xylogenesis in trees: From cambial cell division to cell
+  death.
+\newblock \emph{Academic Press - Secondary Xylem Biology}, pages 25 -- 43,
+  2016.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9780128021859000024}.
+
+\bibitem[Bauer and Bienefeld(2013)]{Reference7}
+D.~Bauer and K.~Bienefeld.
+\newblock Hexagonal comb cells of honeybees are not produced via a liquid
+  equilibrium process.
+\newblock \emph{Naturwissenschaften}, pages 45--49, Jan 2013.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007%2Fs00114-012-0992-3}.
+
+\bibitem[Karihaloo B.~L. and J.(2013)]{Reference8}
+Zhang~K. Karihaloo B.~L. and Wang J.
+\newblock Honeybee combs: how the circular cells transform into rounded
+  hexagons.
+\newblock \emph{Journal of Royal Society Interface}, 10, September 2013.
+\newblock URL \url{http://doi.org/10.1098/rsif.2013.0299}.
+
+\bibitem[Choi et~al.(2016)Choi, Yu, Paley, Trinh, Paley, Karch, Crowther, Lee,
+  Lalancette, Zhu, Kim, Steigerwald, Nuckolls, and Roy]{Reference9}
+B.~Choi, J.~Yu, D.W. Paley, M.T. Trinh, M.V. Paley, J.M. Karch, A.C. Crowther,
+  C.H. Lee, R.A. Lalancette, X.~Zhu, P.~Kim, M.L. Steigerwald, C.~Nuckolls, and
+  X.~Roy.
+\newblock van der waals solids from self-assembled nanoscale building blocks.
+\newblock \emph{Nano Lett.}, 16:\penalty0 1445--1449, February 2016.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pubmed/26829055}.
+
+\bibitem[Champsaur et~al.(2017)Champsaur, Yu, Roy, Paley, Steigerwald,
+  Nuckolls, , and Bejger]{Reference10}
+A.~M. Champsaur, J.~Yu, X.~Roy, D.~W. Paley, M.~L. Steigerwald, C.~Nuckolls, ,
+  and C.~M. Bejger.
+\newblock Two-dimensional nanosheets from redox-active superatoms.
+\newblock \emph{ACS central science}, 3:\penalty0 1050–1055, 2017.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5620970/}.
+
+\bibitem[Ulman(1996)]{Reference34}
+A.~Ulman.
+\newblock Formation and structure of self-assembled monolayers.
+\newblock \emph{Chemical Reviews}, 96:\penalty0 1533--1554, 1996.
+\newblock URL \url{https://doi.org/10.1021/cr9502357}.
+
+\bibitem[Kumar et~al.()Kumar, Biebuyck, and Whitesides]{Reference35}
+A.~Kumar, Hans~A. Biebuyck, and George~M. Whitesides.
+\newblock Patterning self-assembled monolayers: Applications in materials
+  science.
+\newblock \emph{Langmuir}, 10:\penalty0 0743--7463.
+\newblock URL \url{https://doi.org/10.1021/la00017a030}.
+
+\bibitem[Imaizumi and Sekiya(1983)]{Reference12}
+Harada~N Imaizumi, K and M.~Sekiya.
+\newblock Kinetics of rouleaux formation using tv image analyzer .1.
+  human-erythrocytes.
+\newblock \emph{American Journal of Physiology.}, 245.2, 1983.
+
+\bibitem[G.~Barshtein and Yedgar(2000)]{Reference14}
+D.~Wajnblum G.~Barshtein and S.~Yedgar.
+\newblock Kinetics of linear rouleaux formation studied by visual monitoring of
+  red cell dynamic organization.
+\newblock \emph{Biophysical Journal}, 78:\penalty0 2470--2474, May 2000.
+
+\bibitem[Kumnorkaew et~al.(2008)Kumnorkaew, Ee, Tansu, and
+  Gilchrist]{Reference36}
+P.~Kumnorkaew, Y.-K. Ee, N.~Tansu, and J.~F. Gilchrist.
+\newblock Investigation of the deposition of microsphere monolayers for
+  fabrication of microlens arrays.
+\newblock \emph{Langmuir}, 24:\penalty0 0743--7463, 2008.
+\newblock URL \url{https://doi.org/10.1021/la801100g}.
+
+\bibitem[Kamada et~al.(2017)Kamada, Mittal, S{\"o}derberg, Ingverud, Ohm, Roth,
+  Lundell, and Lendel]{Reference37}
+Ayaka Kamada, Nitesh Mittal, L.~Daniel S{\"o}derberg, Tobias Ingverud, Wiebke
+  Ohm, Stephan~V. Roth, Fredrik Lundell, and Christofer Lendel.
+\newblock Flow-assisted assembly of nanostructured protein microfibers.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114:\penalty0
+  1232--1237, 2017.
+\newblock URL \url{https://www.pnas.org/content/114/6/1232}.
+
+\bibitem[G.~Tomaiuolo and Guido(2012)]{Reference28}
+G.~Ghigliotti C.~Misbah G.~Tomaiuolo, L.~Lanotte and S.~Guido.
+\newblock Red blood cell clustering in poiseuille microcapillary flow.
+\newblock \emph{Physics of Fluids}, 24:\penalty0 051903, 2012.
+\newblock URL \url{https://doi.org/10.1063/1.4721811}.
+
+\bibitem[Claveria~V and C(2016)]{Reference29}
+Thiebaud M Abkarian M Coupier G Misbah C John~T Claveria~V, Aouane~O and Wagner
+  C.
+\newblock Clusters of red blood cells in microcapillary flow: hydrodynamic
+  versus macromolecule induced interaction.
+\newblock \emph{Soft Matter}, Oct 2016.
+\newblock URL \url{10.1039/c6sm01165a}.
+
+\bibitem[Migler(2001)]{Reference15}
+Kalman~B. Migler.
+\newblock String formation in sheared polymer blends: Coalescence, breakup, and
+  finite size effects.
+\newblock \emph{PHYSICAL REVIEW LETTERS}, February 2001.
+\newblock URL
+  \url{https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.86.1023}.
+
+\bibitem[Jai A.~Pathak(2002)]{Reference16}
+Steven D. Hudson and Kalman B.~Migler Jai A.~Pathak, Melissa C.~Davis.
+\newblock Layered droplet microstructures in sheared emulsions:finite-size
+  effects.
+\newblock \emph{Journal of Colloid and Interface Science}, 255:\penalty0
+  391--402, July 2002.
+
+\bibitem[Pathak and Migler(2003)]{Reference30}
+Jai~A. Pathak and Kalman~B. Migler.
+\newblock Droplet−string deformation and stability during microconfined shear
+  flow.
+\newblock \emph{Langmuir}, 19:\penalty0 0743--7463, 2003.
+\newblock URL \url{https://doi.org/10.1021/la0346907}.
+
+\bibitem[Tufano and Meijer(2008)]{Reference31}
+Peters G. W.~M. Tufano, C. and H.~E.~H. Meijer.
+\newblock Confined flow of polymer blends.
+\newblock 24:\penalty0 0743--7463, 2008.
+\newblock URL \url{https://doi.org/10.1021/la7036636}.
+
+\bibitem[A. et~al.(2012)A., Baron, Anderson, Blawzdziewicz, Loewenberg, and
+  Wajnryb]{Reference32}
+Janssen P.~J. A., M.~Baron, P.~D. Anderson, J.~Blawzdziewicz, M.~Loewenberg,
+  and E.~Wajnryb.
+\newblock Collective dynamics of confined rigid spheres and deformable drops.
+\newblock \emph{Soft Matter}, 8:\penalty0 7985, 2012.
+
+\bibitem[Zurita-Gotor et~al.(2007)Zurita-Gotor, Blawzdziewicz, and
+  Wajnryb]{Reference27}
+M.~Zurita-Gotor, J.~Blawzdziewicz, and E.~Wajnryb.
+\newblock Swapping trajectories: a new wall-induced cross-streamline particle
+  migration mechanism in a dilute suspension of spheres.
+\newblock \emph{J. FLuid Mech.}, pages 447--469, August 2007.
+\newblock URL
+  \url{http://degu.me.ttu.edu/~jblawzdz/PUB/publicationsWeb/PDF-PUB/2007-JFM-migrationMechanism.pdf}.
+
+\bibitem[Singha et~al.(2019)Singha, Malipeddy, Zurita-Gotor, Sarkar, Shen,
+  Lowenberg, and Blawzdziewicz]{Reference33}
+S~Singha, A.R. Malipeddy, M.~Zurita-Gotor, K~Sarkar, K~Shen, M.~Lowenberg, and
+  J.~Blawzdziewicz.
+\newblock Mechanisms of spontaneous chain formation and subsequent
+  microstructural evolution in shear-driven strongly confined drop monolayers.
+\newblock 24, 2019.
+
+\bibitem[Vananroye et~al.(2006)Vananroye, Puyvelde, and
+  Moldenaers]{Reference19}
+A.~Vananroye, P.~V. Puyvelde, and P.~Moldenaers.
+\newblock Structure development in confined polymer blends: Steady-state shear
+  flow and relaxation.
+\newblock \emph{Langmuir}, 22:\penalty0 2273--2280, 2006.
+\newblock URL \url{https://doi.org/10.1021/la0527893}.
+
+\bibitem[Peng et~al.(2011)Peng, Huang, Xia, Kong, and Li]{Reference17}
+X.~Peng, Y.~Huang, T.~Xia, M.~Kong, and G.~Li.
+\newblock Shapes of dispersed phase in confined pib/pdms blends with different
+  compositions during shear flow.
+\newblock \emph{uropean Polymer Journal}, 47:\penalty0 1956–1963, 2011.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0014305711002564?via%3Dihub}.
+
+\bibitem[C.~Mao and Huang()]{Reference18}
+Q.~Yang G.~Li C.~Mao, M.~Kong and Y.~Huang.
+\newblock Droplet coalescence and clustering behavior in microsphere-filled
+  polymeric emulsions under shear flow: the key role of asymmetric interfacial
+  affinities.
+
+\bibitem[Segré and Silberberg(1962)]{Reference21}
+G.~Segré and A.~Silberberg.
+\newblock Behaviour of macroscopic rigid spheres in poiseuille flow part 2.
+  experimental results and interpretation.
+\newblock \emph{Journal of Fluid Mechanics}, 14\penalty0 (1):\penalty0
+  136--157, 1962.
+\newblock URL \url{https://doi.org/10.1017/S0022112062001111}.
+
+\bibitem[Humphry et~al.(2010)Humphry, Kulkarni, Weitz, Morris, and
+  Stone]{Reference20}
+Katherine~J. Humphry, Pandurang~M. Kulkarni, David~A. Weitz, Jeffrey~F. Morris,
+  and Howard~A. Stone.
+\newblock Axial and lateral particle ordering in finite reynolds number channel
+  flows.
+\newblock 22\penalty0 (8):\penalty0 081703, 2010.
+\newblock URL \url{https://doi.org/10.1063/1.3478311}.
+
+\bibitem[Matas et~al.(2004)Matas, Glezer, Guazzelli, and Morris]{Reference22}
+Jean-Philippe Matas, Virginie Glezer, Élisabeth Guazzelli, and Jeffrey~F.
+  Morris.
+\newblock Trains of particles in finite-reynolds-number pipe flow.
+\newblock \emph{Physics of Fluids}, 16\penalty0 (11):\penalty0 4192--4195,
+  2004.
+\newblock URL \url{https://doi.org/10.1063/1.1791460}.
+
+\bibitem[Abkarian et~al.(2008)Abkarian, Faivre, Horton, Smistrup, Best-Popescu,
+  and Stone]{Reference23}
+Manouk Abkarian, Magalie Faivre, Renita Horton, Kristian Smistrup, Catherine~A
+  Best-Popescu, and Howard~A Stone.
+\newblock Cellular-scale hydrodynamics.
+\newblock \emph{Biomedical Materials}, 3\penalty0 (3):\penalty0 034011, sep
+  2008.
+\newblock URL \url{https://doi.org/10.1088%2F1748-6041%2F3%2F3%2F034011}.
+
+\bibitem[Iss et~al.(2019)Iss, Midou, Moreau, Held, Charrier, Mendez, Viallat,
+  and Helfer]{Reference24}
+C.~Iss, D~Midou, A~Moreau, D~Held, A~Charrier, S~Mendez, A~Viallat, and
+  E~Helfer.
+\newblock Self-organization of red blood cell suspensions under confined 2d
+  flows.
+\newblock \emph{Soft Matter}, pages 2971--2980, Apr 2019.
+\newblock URL
+  \url{https://pubs.rsc.org/en/content/articlelanding/2019/sm/c8sm02571a#!divAbstract}.
+
+\bibitem[Shiga and Sekiya(1983)]{Reference25}
+K.~Imaizumi N.~Harada Shiga, T. and M.~Sekiya.
+\newblock Kinetics of rouleaux formation using tv image analyzer. i. human
+  erythrocytes.
+\newblock \emph{Am. J. Physiol.}, 245:\penalty0 H252–H258, 1983.
+
+\bibitem[Secomb(2017)]{Reference26}
+T.~W. Secomb.
+\newblock Blood flow in the microcirculation.
+\newblock \emph{Annu. Rev. Fluid Mech.}, 49\penalty0 (1):\penalty0 443--461,
+  2017.
+\newblock URL \url{https://doi.org/10.1146/annurev-fluid-010816-060302}.
+
+\end{thebibliography}
