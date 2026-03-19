@@ -1,0 +1,4224 @@
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+A00005.dat
+A00010.dat
+A00015.dat
+A00020.dat
+A00025.dat
+A00030.dat
+A00035.dat
+A00040.dat
+A00045.dat
+A00050.dat
+A00055.dat
+A00060.dat
+A00065.dat
+A00070.dat
+A00075.dat
+A00080.dat
+A00085.dat
+A00090.dat
+A00095.dat
+A00100.dat
+A00105.dat
+A00110.dat
+A00115.dat
+A00120.dat
+A00125.dat
+A00130.dat
+A00135.dat
+A00140.dat
+A00145.dat
+A00150.dat
+A00155.dat
+A00160.dat
+A00165.dat
+A00170.dat
+A00175.dat
+A00180.dat
+A00185.dat
+A00190.dat
+A00195.dat
+A00200.dat
+A00205.dat
+A00210.dat
+A00215.dat
+A00220.dat
+A00225.dat
+A00230.dat
+A00235.dat
+A00240.dat
+A00245.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+final_simulation-prev.mp4
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+M00001.png
+M00002.png
+M00003.png
+M00004.png
+M00005.png
+M00006.png
+M00007.png
+M00008.png
+M00009.png
+M00010.png
+M00011.png
+M00012.png
+M00013.png
+M00014.png
+M00015.png
+M00016.png
+M00017.png
+M00018.png
+M00019.png
+M00020.png
+M00021.png
+M00022.png
+M00023.png
+M00024.png
+M00025.png
+M00026.png
+M00027.png
+M00028.png
+M00029.png
+M00030.png
+M00031.png
+M00032.png
+M00033.png
+M00034.png
+M00035.png
+M00036.png
+M00037.png
+M00038.png
+M00039.png
+M00040.png
+M00041.png
+M00042.png
+M00043.png
+M00044.png
+M00045.png
+M00046.png
+M00047.png
+M00048.png
+M00049.png
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plot.gplot
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 114: 17125 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 18786 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 18717 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 114: 17241 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plotchannel_jb.gplot~
+plot.gplot
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 115: 20395 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+A00005.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plotchannel_jb.gplot~
+plot.gplot
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plotchannel_jb.gplot~
+plot.gplot
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_3
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_3
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_4
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_4
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 115: 20444 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 114: 20835 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 114: 20768 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_3
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_3
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plot.gplot
+plot.gplot~
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_4
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_13_4
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plot.gplot
+plot.gplot~
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 114: 21281 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 114: 21331 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_3
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_3
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_4
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/100-particle_75.61-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_14_4
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_100_75.61_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 115: 20490 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 22885 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 22932 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.08_cell-frac0.5dipolar_self-term-0_trailing_end
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.08_cell-frac0.5dipolar_self-term-0_trailing_end
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.08_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.3_cell-frac0.5dipolar_self-term-0_trailing_end
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.3_cell-frac0.5dipolar_self-term-0_trailing_end
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.3_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_baiji/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_baiji/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.08_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_baiji/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.08_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.08_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_baiji/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.3_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_baiji/50-particle_37.805-Lx_7.69_Ly_0.05-dt_gstren-0.3_cell-frac0.5dipolar_self-term-0_trailing_end_vfront-set2
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_37.805_7.69_0.05_0.3_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 65: cd: local_simulations_baiji: No such file or directory
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/50-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_150_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 114: 28049 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 65: cd: local_simulations_baiji: No such file or directory
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 66: cd: local_simulations_baiji: No such file or directory
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ i=          51
+ i=          52
+ i=          53
+ i=          54
+ i=          55
+ i=          56
+ i=          57
+ i=          58
+ i=          59
+ i=          60
+ i=          61
+ i=          62
+ i=          63
+ i=          64
+ i=          65
+ i=          66
+ i=          67
+ i=          68
+ i=          69
+ i=          70
+ i=          71
+ i=          72
+ i=          73
+ i=          74
+ i=          75
+ i=          76
+ i=          77
+ i=          78
+ i=          79
+ i=          80
+ i=          81
+ i=          82
+ i=          83
+ i=          84
+ i=          85
+ i=          86
+ i=          87
+ i=          88
+ i=          89
+ i=          90
+ i=          91
+ i=          92
+ i=          93
+ i=          94
+ i=          95
+ i=          96
+ i=          97
+ i=          98
+ i=          99
+ i=         100
+ i=         101
+ i=         102
+ i=         103
+ i=         104
+ i=         105
+ i=         106
+ i=         107
+ i=         108
+ i=         109
+ i=         110
+ i=         111
+ i=         112
+ i=         113
+ i=         114
+ i=         115
+ i=         116
+ i=         117
+ i=         118
+ i=         119
+ i=         120
+ i=         121
+ i=         122
+ i=         123
+ i=         124
+ i=         125
+ i=         126
+ i=         127
+ i=         128
+ i=         129
+ i=         130
+ i=         131
+ i=         132
+ i=         133
+ i=         134
+ i=         135
+ i=         136
+ i=         137
+ i=         138
+ i=         139
+ i=         140
+ i=         141
+ i=         142
+ i=         143
+ i=         144
+ i=         145
+ i=         146
+ i=         147
+ i=         148
+ i=         149
+ i=         150
+ i=         151
+ i=         152
+ i=         153
+ i=         154
+ i=         155
+ i=         156
+ i=         157
+ i=         158
+ i=         159
+ i=         160
+ i=         161
+ i=         162
+ i=         163
+ i=         164
+ i=         165
+ i=         166
+ i=         167
+ i=         168
+ i=         169
+ i=         170
+ i=         171
+ i=         172
+ i=         173
+ i=         174
+ i=         175
+ i=         176
+ i=         177
+ i=         178
+ i=         179
+ i=         180
+ i=         181
+ i=         182
+ i=         183
+ i=         184
+ i=         185
+ i=         186
+ i=         187
+ i=         188
+ i=         189
+ i=         190
+ i=         191
+ i=         192
+ i=         193
+ i=         194
+ i=         195
+ i=         196
+ i=         197
+ i=         198
+ i=         199
+ i=         200
+ i=         201
+ i=         202
+ i=         203
+ i=         204
+ i=         205
+ i=         206
+ i=         207
+ i=         208
+ i=         209
+ i=         210
+ i=         211
+ i=         212
+ i=         213
+ i=         214
+ i=         215
+ i=         216
+ i=         217
+ i=         218
+ i=         219
+ i=         220
+ i=         221
+ i=         222
+ i=         223
+ i=         224
+ i=         225
+ i=         226
+ i=         227
+ i=         228
+ i=         229
+ i=         230
+ i=         231
+ i=         232
+ i=         233
+ i=         234
+ i=         235
+ i=         236
+./runprog4_varying_linear.bash: line 115: 28149 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 114: 28094 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: puts: command not found
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ i=          51
+ i=          52
+ i=          53
+ i=          54
+ i=          55
+ i=          56
+ i=          57
+ i=          58
+ i=          59
+ i=          60
+ i=          61
+ i=          62
+ i=          63
+ i=          64
+ i=          65
+ i=          66
+ i=          67
+ i=          68
+ i=          69
+ i=          70
+ i=          71
+ i=          72
+ i=          73
+ i=          74
+ i=          75
+ i=          76
+ i=          77
+ i=          78
+ i=          79
+ i=          80
+ i=          81
+ i=          82
+ i=          83
+ i=          84
+ i=          85
+ i=          86
+ i=          87
+ i=          88
+ i=          89
+ i=          90
+ i=          91
+ i=          92
+ i=          93
+ i=          94
+ i=          95
+ i=          96
+ i=          97
+ i=          98
+ i=          99
+ i=         100
+ i=         101
+ i=         102
+ i=         103
+ i=         104
+ i=         105
+ i=         106
+ i=         107
+ i=         108
+ i=         109
+ i=         110
+ i=         111
+ i=         112
+ i=         113
+ i=         114
+ i=         115
+ i=         116
+ i=         117
+ i=         118
+ i=         119
+ i=         120
+ i=         121
+ i=         122
+ i=         123
+ i=         124
+ i=         125
+ i=         126
+ i=         127
+ i=         128
+ i=         129
+ i=         130
+ i=         131
+ i=         132
+ i=         133
+ i=         134
+ i=         135
+ i=         136
+ i=         137
+ i=         138
+ i=         139
+ i=         140
+ i=         141
+ i=         142
+ i=         143
+ i=         144
+ i=         145
+ i=         146
+ i=         147
+ i=         148
+ i=         149
+ i=         150
+ i=         151
+ i=         152
+ i=         153
+ i=         154
+ i=         155
+ i=         156
+ i=         157
+ i=         158
+ i=         159
+ i=         160
+ i=         161
+ i=         162
+ i=         163
+ i=         164
+ i=         165
+ i=         166
+ i=         167
+ i=         168
+ i=         169
+ i=         170
+ i=         171
+ i=         172
+ i=         173
+ i=         174
+ i=         175
+ i=         176
+ i=         177
+ i=         178
+ i=         179
+ i=         180
+ i=         181
+ i=         182
+ i=         183
+ i=         184
+ i=         185
+ i=         186
+ i=         187
+ i=         188
+ i=         189
+ i=         190
+ i=         191
+ i=         192
+ i=         193
+ i=         194
+ i=         195
+ i=         196
+ i=         197
+ i=         198
+ i=         199
+ i=         200
+ i=         201
+ i=         202
+ i=         203
+ i=         204
+ i=         205
+ i=         206
+ i=         207
+ i=         208
+ i=         209
+ i=         210
+ i=         211
+ i=         212
+ i=         213
+ i=         214
+ i=         215
+ i=         216
+ i=         217
+ i=         218
+ i=         219
+ i=         220
+ i=         221
+ i=         222
+ i=         223
+ i=         224
+ i=         225
+ i=         226
+ i=         227
+ i=         228
+ i=         229
+ i=         230
+ i=         231
+ i=         232
+ i=         233
+ i=         234
+ i=         235
+ i=         236
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.1_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0.1_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   37.805000000000000        7.6900000000000004     
+ From generate_af:Lx=   37.805000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13507790102097192     
+ sigma=   18.902500000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=          13
+ numpar=          50
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG
+ numpar=         200
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   150.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   150.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   75.000000000000000     
+ dt=   5.0000000000000003E-002
+ numpar=         200
+ STOP-Angle Undefined, a,mag=   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ numpar=         300
+ STOP-Angle Undefined, a,mag=   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ numpar=         300
+ STOP-Angle Undefined, a,mag=   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG
+ numpar=         200
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   150.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   150.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   75.000000000000000     
+ dt=   5.0000000000000003E-002
+ numpar=         200
+ STOP-Angle Undefined, a,mag=   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/200-particle_150-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_200_150_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0._cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ i=          51
+ i=          52
+ i=          53
+ i=          54
+ i=          55
+ i=          56
+ i=          57
+ i=          58
+ i=          59
+ i=          60
+ i=          61
+ i=          62
+ i=          63
+ i=          64
+ i=          65
+ i=          66
+ i=          67
+ i=          68
+ i=          69
+ i=          70
+ i=          71
+ i=          72
+ i=          73
+ i=          74
+ i=          75
+ i=          76
+ i=          77
+ i=          78
+ i=          79
+ i=          80
+ i=          81
+ i=          82
+ i=          83
+ i=          84
+ i=          85
+ i=          86
+ i=          87
+ i=          88
+ i=          89
+ i=          90
+ i=          91
+ i=          92
+ i=          93
+ i=          94
+ i=          95
+ i=          96
+ i=          97
+ i=          98
+ i=          99
+ i=         100
+ i=         101
+ i=         102
+ i=         103
+ i=         104
+ i=         105
+ i=         106
+ i=         107
+ i=         108
+ i=         109
+ i=         110
+ i=         111
+ i=         112
+ i=         113
+ i=         114
+ i=         115
+ i=         116
+ i=         117
+ i=         118
+ i=         119
+ i=         120
+ i=         121
+ i=         122
+ i=         123
+ i=         124
+ i=         125
+ i=         126
+ i=         127
+ i=         128
+ i=         129
+ i=         130
+ i=         131
+ i=         132
+ i=         133
+ i=         134
+ i=         135
+ i=         136
+ i=         137
+ i=         138
+ i=         139
+ i=         140
+ i=         141
+ i=         142
+ i=         143
+ i=         144
+ i=         145
+ i=         146
+ i=         147
+ i=         148
+ i=         149
+ i=         150
+ i=         151
+ i=         152
+ i=         153
+ i=         154
+ i=         155
+ i=         156
+ i=         157
+ i=         158
+ i=         159
+ i=         160
+ i=         161
+ i=         162
+ i=         163
+ i=         164
+ i=         165
+ i=         166
+ i=         167
+ i=         168
+ i=         169
+ i=         170
+ i=         171
+ i=         172
+ i=         173
+ i=         174
+ i=         175
+ i=         176
+ i=         177
+ i=         178
+ i=         179
+ i=         180
+ i=         181
+ i=         182
+ i=         183
+ i=         184
+ i=         185
+ i=         186
+ i=         187
+ i=         188
+ i=         189
+ i=         190
+ i=         191
+ i=         192
+ i=         193
+ i=         194
+ i=         195
+ i=         196
+ i=         197
+ i=         198
+ i=         199
+ i=         200
+ i=         201
+ i=         202
+ i=         203
+ i=         204
+ i=         205
+ i=         206
+ i=         207
+ i=         208
+ i=         209
+ i=         210
+ i=         211
+ i=         212
+ i=         213
+ i=         214
+ i=         215
+ i=         216
+ i=         217
+ i=         218
+ i=         219
+ i=         220
+ i=         221
+ i=         222
+ i=         223
+ i=         224
+ i=         225
+ i=         226
+ i=         227
+ i=         228
+ i=         229
+ i=         230
+ i=         231
+ i=         232
+ i=         233
+ i=         234
+ i=         235
+ i=         236
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/300-particle_225-Lx_7.69_Ly_0.05-dt_gstren-0.05_cell-frac0.5dipolar_self-term-0_trailing_end_vfront
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_300_225_7.69_0.05_0.05_frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+ numpar=         300
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   225.00000000000000        7.6900000000000004     
+ From generate_af:Lx=   225.00000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.13617653461594248     
+ sigma=   112.50000000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ i=          51
+ i=          52
+ i=          53
+ i=          54
+ i=          55
+ i=          56
+ i=          57
+ i=          58
+ i=          59
+ i=          60
+ i=          61
+ i=          62
+ i=          63
+ i=          64
+ i=          65
+ i=          66
+ i=          67
+ i=          68
+ i=          69
+ i=          70
+ i=          71
+ i=          72
+ i=          73
+ i=          74
+ i=          75
+ i=          76
+ i=          77
+ i=          78
+ i=          79
+ i=          80
+ i=          81
+ i=          82
+ i=          83
+ i=          84
+ i=          85
+ i=          86
+ i=          87
+ i=          88
+ i=          89
+ i=          90
+ i=          91
+ i=          92
+ i=          93
+ i=          94
+ i=          95
+ i=          96
+ i=          97
+ i=          98
+ i=          99
+ i=         100
+ i=         101
+ i=         102
+ i=         103
+ i=         104
+ i=         105
+ i=         106
+ i=         107
+ i=         108
+ i=         109
+ i=         110
+ i=         111
+ i=         112
+ i=         113
+ i=         114
+ i=         115
+ i=         116
+ i=         117
+ i=         118
+ i=         119
+ i=         120
+ i=         121
+ i=         122
+ i=         123
+ i=         124
+ i=         125
+ i=         126
+ i=         127
+ i=         128
+ i=         129
+ i=         130
+ i=         131
+ i=         132
+ i=         133
+ i=         134
+ i=         135
+ i=         136
+ i=         137
+ i=         138
+ i=         139
+ i=         140
+ i=         141
+ i=         142
+ i=         143
+ i=         144
+ i=         145
+ i=         146
+ i=         147
+ i=         148
+ i=         149
+ i=         150
+ i=         151
+ i=         152
+ i=         153
+ i=         154
+ i=         155
+ i=         156
+ i=         157
+ i=         158
+ i=         159
+ i=         160
+ i=         161
+ i=         162
+ i=         163
+ i=         164
+ i=         165
+ i=         166
+ i=         167
+ i=         168
+ i=         169
+ i=         170
+ i=         171
+ i=         172
+ i=         173
+ i=         174
+ i=         175
+ i=         176
+ i=         177
+ i=         178
+ i=         179
+ i=         180
+ i=         181
+ i=         182
+ i=         183
+ i=         184
+ i=         185
+ i=         186
+ i=         187
+ i=         188
+ i=         189
+ i=         190
+ i=         191
+ i=         192
+ i=         193
+ i=         194
+ i=         195
+ i=         196
+ i=         197
+ i=         198
+ i=         199
+ i=         200
+ i=         201
+ i=         202
+ i=         203
+ i=         204
+ i=         205
+ i=         206
+ i=         207
+ i=         208
+ i=         209
+ i=         210
+ i=         211
+ i=         212
+ i=         213
+ i=         214
+ i=         215
+ i=         216
+ i=         217
+ i=         218
+ i=         219
+ i=         220
+ i=         221
+ i=         222
+ i=         223
+ i=         224
+ i=         225
+ i=         226
+ i=         227
+ i=         228
+ i=         229
+ i=         230
+ i=         231
+ i=         232
+ i=         233
+ i=         234
+ i=         235
+ i=         236
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_17-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_17-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_17_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_transverse_chain_placement.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 117: 30019 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_17.-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_17.-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+A00005.dat
+A00010.dat
+A00015.dat
+A00020.dat
+A00025.dat
+A00030.dat
+A00035.dat
+A00040.dat
+A00045.dat
+A00050.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_50_17._7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_transverse_chain_placement.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plot.gplot
+plot.gplot~
+random_parameters.mod
+rectangle.mod
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 117: 30440 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+50-particle_13.-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/50-particle_13.-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+A00005.dat
+A00010.dat
+A00015.dat
+A00020.dat
+A00025.dat
+A00030.dat
+A00035.dat
+A00040.dat
+A00045.dat
+A00050.dat
+A00055.dat
+A00060.dat
+A00065.dat
+A00070.dat
+A00075.dat
+A00080.dat
+A00085.dat
+A00090.dat
+A00095.dat
+A00100.dat
+A00105.dat
+A00110.dat
+A00115.dat
+A00120.dat
+A00125.dat
+A00130.dat
+A00135.dat
+A00140.dat
+A00145.dat
+A00150.dat
+A00155.dat
+A00160.dat
+A00165.dat
+A00170.dat
+A00175.dat
+A00180.dat
+A00185.dat
+A00190.dat
+A00195.dat
+A00200.dat
+A00205.dat
+A00210.dat
+A00215.dat
+A00220.dat
+A00225.dat
+A00230.dat
+A00235.dat
+A00240.dat
+A00245.dat
+A00250.dat
+A00255.dat
+A00260.dat
+A00265.dat
+A00270.dat
+A00275.dat
+A00280.dat
+A00285.dat
+A00290.dat
+A00295.dat
+A00300.dat
+A00305.dat
+A00310.dat
+A00315.dat
+A00320.dat
+A00325.dat
+A00330.dat
+A00335.dat
+A00340.dat
+A00345.dat
+A00350.dat
+A00355.dat
+A00360.dat
+A00365.dat
+A00370.dat
+A00375.dat
+A00380.dat
+A00385.dat
+A00390.dat
+A00395.dat
+A00400.dat
+A00405.dat
+A00410.dat
+A00415.dat
+A00420.dat
+A00425.dat
+A00430.dat
+A00435.dat
+A00440.dat
+A00445.dat
+A00450.dat
+A00455.dat
+A00460.dat
+A00465.dat
+A00470.dat
+A00475.dat
+A00480.dat
+A00485.dat
+A00490.dat
+A00495.dat
+A00500.dat
+A00505.dat
+A00510.dat
+A00515.dat
+A00520.dat
+A00525.dat
+A00530.dat
+A00535.dat
+A00540.dat
+A00545.dat
+A00550.dat
+A00555.dat
+A00560.dat
+A00565.dat
+A00570.dat
+A00575.dat
+A00580.dat
+A00585.dat
+A00590.dat
+A00595.dat
+A00600.dat
+A00605.dat
+A00610.dat
+A00615.dat
+A00620.dat
+A00625.dat
+A00630.dat
+A00635.dat
+A00640.dat
+A00645.dat
+A00650.dat
+A00655.dat
+A00660.dat
+A00665.dat
+A00670.dat
+A00675.dat
+A00680.dat
+A00685.dat
+A00690.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+final_simulation.mp4
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+M00001.png
+M00002.png
+M00003.png
+M00004.png
+M00005.png
+M00006.png
+M00007.png
+M00008.png
+M00009.png
+M00010.png
+M00011.png
+M00012.png
+M00013.png
+M00014.png
+M00015.png
+M00016.png
+M00017.png
+M00018.png
+M00019.png
+M00020.png
+M00021.png
+M00022.png
+M00023.png
+M00024.png
+M00025.png
+M00026.png
+M00027.png
+M00028.png
+M00029.png
+M00030.png
+M00031.png
+M00032.png
+M00033.png
+M00034.png
+M00035.png
+M00036.png
+M00037.png
+M00038.png
+M00039.png
+M00040.png
+M00041.png
+M00042.png
+M00043.png
+M00044.png
+M00045.png
+M00046.png
+M00047.png
+M00048.png
+M00049.png
+M00050.png
+M00051.png
+M00052.png
+M00053.png
+M00054.png
+M00055.png
+M00056.png
+M00057.png
+M00058.png
+M00059.png
+M00060.png
+M00061.png
+M00062.png
+M00063.png
+M00064.png
+M00065.png
+M00066.png
+M00067.png
+M00068.png
+M00069.png
+M00070.png
+M00071.png
+M00072.png
+M00073.png
+main_50_13._7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_transverse_chain_placement.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plotchannel_jb.gplot~
+plot.gplot
+plot.gplot~
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+SOURCE DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end
+
+SIMULATION DIRECTORY NAME:
+57-particle_14.82-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+SIMULATION DIRECTORY:
+/home/ssingha/PROJECTS/simulation-periodic-robust-ewald-yuk-automatic-A-1-dipole-quadrupole_trailing_end/local_simulations_dobara/57-particle_14.82-Lx_7.69_Ly_0.05-gstren-0.-dipolar_chain_investigations
+
+COPYING FILES
+TEXT FILE CREATED
+
+EXECUTING THE SIMULATION
+
+-----------BASH OUTPUT ENDS-----------
+A00000.dat
+A00001.dat
+A00005.dat
+analyt.f90
+correct_rand_adsorp.f90
+ewald_sum.f90
+flag_self_int.mod
+frames.dat
+functions.f90
+gauss_dist.f90
+gauss_para.mod
+gradient.f90
+main_57_14.82_7.69_0.05_0._frac_0.5.run
+main_back_before_gauss.f90
+main_backup_before_transverse_chain_placement.f90
+main_backup_before_weak_quadrupole.f90
+main.f90
+main_module.mod
+module_backup.f90
+module.f90
+new_cood_yukawa.mod
+para_bk.mod
+parameters2.mod
+parameters_kn.mod
+parameters_main.mod
+parameters.mod
+plotchannel_jb.gplot
+plot.gplot
+plot.gplot~
+random_parameters.mod
+rectangle.mod
+run_gnu.bash
+runprog4_varying_linear.bash
+swapping_trajectory.f90
+swap_traj_para.mod
+test.txt
+time_and_positions.dat
+trailing_end_vel.f90
+two_particles_para.mod
+variable_making_subs.f90
+velocities.mod
+yukawa_para.mod
+zgamma.f90
+./runprog4_varying_linear.bash: line 117:  1653 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+ numpar=          50
+ kappa=   6.0000000000000000     
+ m_yuk=           8
+ Lx,Ly=   13.000000000000000        7.6900000000000004     
+ From generate_af:Lx=   13.000000000000000      Ly=   7.6900000000000004     
+ area_fraction=  0.39281692677675717     
+ sigma=   6.5000000000000000     
+ dt=   5.0000000000000003E-002
+ i=           1
+ i=           2
+ i=           3
+ i=           4
+ i=           5
+ i=           6
+ i=           7
+ i=           8
+ i=           9
+ i=          10
+ i=          11
+ i=          12
+ i=          13
+ i=          14
+ i=          15
+ i=          16
+ i=          17
+ i=          18
+ i=          19
+ i=          20
+ i=          21
+ i=          22
+ i=          23
+ i=          24
+ i=          25
+ i=          26
+ i=          27
+ i=          28
+ i=          29
+ i=          30
+ i=          31
+ i=          32
+ i=          33
+ i=          34
+ i=          35
+ i=          36
+ i=          37
+ i=          38
+ i=          39
+ i=          40
+ i=          41
+ i=          42
+ i=          43
+ i=          44
+ i=          45
+ i=          46
+ i=          47
+ i=          48
+ i=          49
+ i=          50
+ overlap_count=         140
+ numpar=          50
+./runprog4_varying_linear.bash: line 116: 18717 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 28238 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 116: 18648 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 115: 28199 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 116: 18758 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+
+./runprog4_varying_linear.bash: line 116: 18570 Terminated              ./${runname}.run  <<inputs
+$Lx
+$Ly
+$dt
+$numpar
+$seed_val
+$ka
+$m_yuk
+$g_stren
+inputs
+

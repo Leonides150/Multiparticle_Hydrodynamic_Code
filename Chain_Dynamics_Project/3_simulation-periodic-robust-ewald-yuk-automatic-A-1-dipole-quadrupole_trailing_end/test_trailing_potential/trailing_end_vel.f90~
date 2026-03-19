@@ -1,0 +1,24 @@
+subroutine trailing_end_vel
+  implicit none
+  
+  real*8 ::
+  integer ::
+  
+  call potential_vel
+
+
+end subroutine trailing_end_vel
+
+subroutine potential_vel
+  implicit none
+
+  real*8 :: g=1.d0, alpha=1.d0, m=1.d0
+  real*8 :: func1,func2,x
+  integer ::
+
+  grad_potential = g**2 * func1 * func2
+  func1 = ( -1.d0 - (alpha*m*x) )/(x**2)
+  func2 = exp(-alpha*m*x)
+
+
+end subroutine potential_vel

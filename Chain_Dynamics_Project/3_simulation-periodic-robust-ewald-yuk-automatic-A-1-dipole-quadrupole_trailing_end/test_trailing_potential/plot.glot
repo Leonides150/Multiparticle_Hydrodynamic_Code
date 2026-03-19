@@ -1,0 +1,2 @@
+plot 'test_trailing.dat' u 1:2 w l lt 2
+pause -1
