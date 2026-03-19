@@ -1,0 +1,15 @@
+mul = .001
+mul=4
+#set yrange [-0.2:1.4]
+set xrange [4:8]
+
+plot "quadrupolar_nmax2_mmax_2.dat" u 1:(-mul*$3) w lp pt 7 lc 'orange',\
+     "quadrupolar_nmax2_mmax_4.dat" u 1:(-mul*$3) w l,\
+     "quadrupolar_nmax2_mmax_6.dat" u 1:(-mul*$3) w l,\
+     "quadrupolar_nmax2_mmax_8.dat" u 1:(-mul*$3) w l,\
+     "quadrupolar_nmax2_mmax_10.dat" u 1:(-mul*$3) w l,\
+     "quadrupolar_nmax2_mmax_12.dat" u 1:(-mul*(($1)**0)*$3) w l,\
+     "quadrupolar_nmax2_mmax_40.dat" u 1:(-mul*$3) w lp pt 5 ps 0.5 lc 'red',\
+     "quadrupolar_43x43_nmax2_mmax_2.dat" u 1:(-mul*(($1)**0)*$3) w lp pt 4 ps 0.5 lc 'blue'
+     
+pause -1

@@ -1,0 +1,18 @@
+
+k=3.2
+x0=1.
+y=0.
+f(x) = 1./(exp(k*x0) + exp(k*x))
+f1(x)=exp(-k*x/2.)/(exp(-k*x/2.)+exp(k*x/2.))
+f2(x)=1./(1. + exp(k*x))
+f3(x) = 1./x**3
+#( -2.*(x**3)+6.*(y**2)*x )/(x**2 + y**2)**3
+f4(x) = f2(x-x0) + f3(x)
+
+set xrange [-0:4]
+set yrange[0:3]
+#plot f1(x-x0),exp(-k*(x-x0))
+#pause -1
+plot f4(x)
+pause -1
+

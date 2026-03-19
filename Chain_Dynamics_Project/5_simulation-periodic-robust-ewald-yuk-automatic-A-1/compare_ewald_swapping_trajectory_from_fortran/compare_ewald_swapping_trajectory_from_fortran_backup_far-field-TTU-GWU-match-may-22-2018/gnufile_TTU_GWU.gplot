@@ -1,0 +1,29 @@
+abhilash='long_box_dx8_0.dat'
+TTU_GWU='swap_traj_fit_4.dat'
+tmp_file='tmp.dat'
+
+
+fac =0.192
+#fac =0.37*0.5
+sc_AtoS = 0.5
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+TTU_GWU u (sc_AtoS*$1):(fac*$5) w l, \
+TTU_GWU u (sc_AtoS*$1):(fac*($5+$7)) w l lc "red", \
+tmp_file u (sc_AtoS*$1):(fac*($5+$7)) w l lc "orange"
+#TTU_GWU u (sc_AtoS*$1):($7) w l
+
+
+#TTU_GWU u (0.5*1):(($7)) w l, \
+#TTU_GWU u (0.5*1):(($5+$7)) w l
+pause -1
+
+#factor= GWU/TTU
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3/($5*fac)) w l,\
+1
+
+pause -1
+
