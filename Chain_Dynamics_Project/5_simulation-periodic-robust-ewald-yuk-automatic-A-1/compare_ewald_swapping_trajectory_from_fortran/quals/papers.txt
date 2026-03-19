@@ -1,0 +1,4 @@
+Blood flow
+1. https://www.pnas.org/content/113/47/13289 - Movie S7 and its explanation ""
+2.https://phys.org/news/2018-07-healthy-red-blood-cells-pattern.html - article about blood flow and RBC arrangement leading to the paper in the point just below.
+3.1711.08772.pdf - "Blood crystal: emergent order of red blood cells under wall-confined shear flow" - they talk about quadrupoles and some similar ideas to our paper.
