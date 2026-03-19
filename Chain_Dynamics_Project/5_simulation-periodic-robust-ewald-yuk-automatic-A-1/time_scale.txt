@@ -1,0 +1,5 @@
+1. Calculate velocity at near particle contact for a two-particle system.
+2. In these datafiles I use A00345.dat since after that the system blows up-->since it has only quadrupoles activated and everything else set to "0".
+3.Double the velocity of a particle in that file (since the calculation is for relative velocities).
+4. Find its reciprocal and that give you time-scale since length-scale is 1 as the datafile corresponds to almost particle contact.
+5. ts= 1.224035296

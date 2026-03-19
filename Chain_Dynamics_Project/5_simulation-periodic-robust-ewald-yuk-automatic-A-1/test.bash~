@@ -1,0 +1,3 @@
+numpar=4
+af=0.01
+runname=main_${numpar}_${af}_${00125}

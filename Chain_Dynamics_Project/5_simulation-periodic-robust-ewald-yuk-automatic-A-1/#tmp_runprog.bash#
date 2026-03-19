@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Sagnik Singha
+# Created: Fri Aug 28 15:35:41 CDT 2015
+#
+#
+#
+sourcedir=$PWD
+
+#Nx=5 #number of particles in x direction
+#Ny=5 #number of particles in x direction
+af=0.22
+#0.196
+numpar=2 #number of particles
+seed_val=1 #seed for the randomize function
+#p_sf_x=2 #particle spacing x dir
+#p_sf_y=2 #particle spacing y dir
+#factor=0.1 #factor to control random displacement of particles
+#config=1 #1:square 2:linear 3:rectangle
+#time_stepper=1 #1:normal 2:adaptive
+dirname="hack_af-${af}-numpar=${numpar}-V1/V2-comparison"
+echo 
