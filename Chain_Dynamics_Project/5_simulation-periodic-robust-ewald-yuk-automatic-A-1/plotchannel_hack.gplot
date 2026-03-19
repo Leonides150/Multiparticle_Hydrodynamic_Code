@@ -1,0 +1,60 @@
+###
+
+set term png font "dejavu/DejaVuSerif-Bold.ttf" 26 size 1000,1000 enhanced
+
+l=126.82647352339235
+frac=0.10
+
+set xrange [-frac*l:(1.+frac)*l]
+set yrange [-frac*l:(1.+frac)*l]
+#set xrange [-30:60]
+#set yrange [-30:60]
+
+set size ratio -1
+set isosample 10000
+set nokey
+
+rad=1
+
+#BOX
+set object 1 rect from 0,0 to l,l
+
+imax=2750
+
+tunit=160.
+
+incr=4
+
+do for [i=1:imax]{
+
+set label "1024  particles-Periodic Quadrupolar Interaction"  at graph 0,1.02 left
+
+j=(i-1)*incr+1
+
+#set title sprintf("j=%i",j) font "Times-Roman,24"
+
+t=j/tunit
+
+set title sprintf("j=%f",j) font "Times-Roman,24"
+
+imagefile='M'.sprintf("%5.5i",i).'.png'
+datafile='A'.sprintf("%5.5i",j).'.dat'
+
+
+
+print i
+print imagefile
+print datafile
+
+set output imagefile
+plot datafile u 2:3:(rad*$6) with circles lc rgb "black", \
+     datafile u ($2-$7):($3-$7):(rad*$6) with circles lc rgb "red", \
+     datafile u ($2-$7):3:(rad*$6) with circles lc rgb "red", \
+     datafile u ($2-$7):($3+$7):(rad*$6) with circles lc rgb "red", \
+     datafile u 2:($3-$7):(rad*$6) with circles lc rgb "red", \
+     datafile u 2:($3+$7):(rad*$6) with circles lc rgb "red", \
+     datafile u ($2+$7):($3-$7):(rad*$6) with circles lc rgb "red", \
+     datafile u ($2+$7):3:(rad*$6) with circles lc rgb "red", \
+     datafile u ($2+$7):($3+$7):(rad*$6) with circles lc rgb "red"  
+pause 0
+}

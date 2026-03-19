@@ -1,0 +1,21 @@
+#!/bin/bash
+# cp module.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp swapping_trajectory.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp correct_rand_adsorp.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp zgamma.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp functions.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp variable_making_subs.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp analyt.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp ewald_sum.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+# cp gradient.f90 /media/ssingha/A9F9-F0E1/main_program_files/.
+
+cp main.f90 tmp_12-17-2018
+cp module.f90 tmp_12-17-2018
+cp swapping_trajectory.f90 tmp_12-17-2018
+cp correct_rand_adsorp.f90 tmp_12-17-2018
+cp zgamma.f90 tmp_12-17-2018
+cp functions.f90 tmp_12-17-2018
+cp variable_making_subs.f90 tmp_12-17-2018
+cp analyt.f90 tmp_12-17-2018
+cp ewald_sum.f90 tmp_12-17-2018
+cp gradient.f90 tmp_12-17-2018
