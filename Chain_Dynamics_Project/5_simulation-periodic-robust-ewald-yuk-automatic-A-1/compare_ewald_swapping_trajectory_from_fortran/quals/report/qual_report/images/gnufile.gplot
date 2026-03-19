@@ -1,0 +1,12 @@
+set terminal postscript eps color colortext
+set grid
+set key right center
+set key box
+
+set xrange [-1:50]
+set output 'comparative_3d-2d_xpos_vs_time.eps'
+plot 'time_and_positions_3d.dat' u 1:($11-$8) title "3-D-outer" w l lc 1 lw 3 lt 1,\
+     'time_and_positions_3d.dat' u 1:($5-$2) title "3-D-inner" w l lc 1 lw 3 lt 1,\
+     'time_and_positions_2d.dat' u 1:($8-$6) title "2-D-outer" w l lc 2 lw 6 lt 0,\
+     'time_and_positions_2d.dat' u 1:($4-$2) title "2-D-inner" w l lc 2 lw 6 lt 0
+pause -1
