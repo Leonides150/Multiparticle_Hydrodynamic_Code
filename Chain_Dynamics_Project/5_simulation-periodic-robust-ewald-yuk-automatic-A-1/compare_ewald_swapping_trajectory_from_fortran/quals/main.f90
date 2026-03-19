@@ -1,0 +1,32 @@
+program main
+  implicit none
+  complex *16 :: ewald_sum(2)
+  real*8 :: ro(2),incr
+  integer :: i,num1=500
+  
+  !open(3,file='long_box_dx8_0.dat',status='unknown')
+
+  do i=1,1!num1
+     incr=0.1d0
+     ro(1)=1.d0!0.d0+ incr*i
+     ro(2)=0.d0
+     call get_sigma
+     call ewald(ro,ewald_sum)
+     write(*,*)ro(1),ro(2),REALPART(ewald_sum(1)),REALPART(ewald_sum(2))
+  end do
+  !close(3)
+  
+end program main
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!To read initial parameters!!!Not related to swapping velocity!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+subroutine get_sigma
+  use parameters
+  use main_module
+  implicit none
+
+  sigma = f_sigma*Lx
+  !write(*,*)'sigma=',sigma
+
+end subroutine get_sigma

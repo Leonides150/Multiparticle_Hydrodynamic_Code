@@ -1,0 +1,77 @@
+abhilash='long_box_dx2_7.dat'
+TTU_GWU='swap_traj_fit_8_1.dat'
+#'swap_traj_fit_4.dat'
+tmp_file='tmp.dat'
+TTU_GWU_short='swap_traj_fit_2-7_2.dat'
+
+#fac1=0.9
+#fac2=1.4
+#fac =0.192
+
+fac_old = 0.192
+fac_mul = 0.010416666
+fac = fac_old*0.85
+
+#fac=0.165
+#fac =0.37*0.5
+sc_AtoS = 0.5
+#Here in TTU_GWU file, $5 is single particle velocity(from model) & $3 rel. vel. from GWU. Hence fac=0.096*2 where 0.096 is time-scale & 2 is to make $5 rel.vel.
+
+unset key
+#set grid
+set term postscript eps enhanced color
+set termopt enhanced
+#enhanced color font 'Helvetica,10'
+set output "parameter_match_3.eps"
+set xrange [2:4]
+set xtics 2,0.4,4
+set xtics font ", 19"
+set yrange [-0.009:0.001]
+set ytics -0.01,0.002,0.002
+set ytics font ", 19"
+#set format y "%.0sx10^{%T}"
+set style line 12 lc rgb 'blue' lw 3 pt 7   # circle
+
+set xlabel 'x_{12} / d' font ",18"
+set ylabel '~U{.8-}_{1x}' offset -1,0 rotate by 0 font ",18"
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3) w l lw 4 lc "blue", \
+TTU_GWU u (sc_AtoS*$1):(fac*$5) w l dt (20,8,3,10) lw 6 lc 10, \
+TTU_GWU u (sc_AtoS*$1):(fac*($5+$7)) w lp ls 7, \
+"<echo '2.169 0'"   with points ls 12
+#tmp_file u (sc_AtoS*$1):(fac*($5+$7)) w l lc "orange"
+#TTU_GWU u (sc_AtoS*$1):(fac1*fac*($5+$7/fac2)) w l lc "red", \
+#TTU_GWU u (sc_AtoS*$1):($7) w l
+#TTU_GWU_short u (sc_AtoS*$1):(fac*($5+$7)) w l dt (15,6,0,15) lw 14 lc 7, \
+
+
+#TTU_GWU u (sc_AtoS*$1):(fac*($7)) w lp ls 9, \
+#w l dt (30,8,0,8) lw 6 lc 7
+#(10,8,4,5)
+#(30,8,0,15)
+
+#TTU_GWU u (0.5*1):(($7)) w l, \
+#TTU_GWU u (0.5*1):(($5+$7)) w l
+pause -1
+
+#factor= GWU/TTU
+
+set output "parameter_match_4.eps"
+set xrange [2:4]
+set xtics 2,0.8,4
+set xtics font ", 23"
+set yrange [0:0.18]
+set ytics 0,0.05,0.18
+set ytics font ", 23"
+#set ytics auto
+set lmargin at screen 0.12
+
+set ylabel '~U{.8-}_{1x} / v_{qx}' offset -1,0 rotate by 90 font ",18"
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3/($5*2)) w l,\
+0.0816 w l dt '-' lw 4 lc 3
+pause -1
+# 0.096 w l dt '-' lw 4 lc 2,\
+#TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3/($5*fac)) w l,\
