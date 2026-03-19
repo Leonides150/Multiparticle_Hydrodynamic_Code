@@ -1,0 +1,63 @@
+abhilash_dir = '/home/ssingha/Downloads/GWU_all_stuff/02-20-2018_plot-data_diff-ini-separation_2-particles/'
+ahilash_file1 = 'dx2-1_deriv.dat'
+ahilash_file2 = 'dx2-2_deriv.dat'
+ahilash_file3 = 'dx2-4_deriv.dat'
+ahilash_file4 = 'dx2-7_deriv.dat'
+ahilash_file5 = 'dx3-0_deriv.dat'
+
+
+
+abhilash='long_box_dx2_7.dat'
+TTU_GWU_short='swap_traj_fit_2-7_2.dat'
+TTU_GWU_far='swap_traj_fit_8_1.dat'
+TTU_GWU_extend='extend-to-1.dat'
+tmp_file='tmp.dat'
+
+set autoscale y
+
+fac =0.192
+#fac =0.37*0.5
+sc_AtoS = 0.5
+
+plot \
+TTU_GWU_short u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+TTU_GWU_short u (sc_AtoS*$1):(fac*($5+$7)) w l lc "red", \
+TTU_GWU_far u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+TTU_GWU_far u (sc_AtoS*$1):(fac*($5+$7)) w l, \
+TTU_GWU_extend u ($1):($3) w l, \
+TTU_GWU_extend u ($1):(fac*($5+$7)) w l, \
+abhilash_dir.ahilash_file1 u (sc_AtoS*$2):(sc_AtoS*$3) w l, \
+abhilash_dir.ahilash_file2 u (sc_AtoS*$2):(sc_AtoS*$3) w l, \
+abhilash_dir.ahilash_file3 u (sc_AtoS*$2):(sc_AtoS*$3) w l, \
+abhilash_dir.ahilash_file4 u (sc_AtoS*$2):(sc_AtoS*$3) w l, \
+abhilash_dir.ahilash_file5 u (sc_AtoS*$2):(sc_AtoS*$3) w l
+
+
+pause -1
+set xrange [2:4]
+set yrange [-0.005:0.02]
+replot
+pause -1
+
+#tmp_file u (sc_AtoS*$1):(fac*($5+$7)) w l lc "orange", \
+#tmp_file u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+#tmp_file u (sc_AtoS*$1):(fac*$5) w l
+#TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+#TTU_GWU u (sc_AtoS*$1):(fac*($5+$7)) w l lc "red", \
+
+#TTU_GWU u (sc_AtoS*$1):(fac*$5) w l, \
+#TTU_GWU u (sc_AtoS*$1):($7) w l
+
+
+#TTU_GWU u (0.5*1):(($7)) w l, \
+#TTU_GWU u (0.5*1):(($5+$7)) w l
+pause -1
+
+#factor= GWU/TTU
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3/($5*fac)) w l,\
+1
+
+pause -1
+

@@ -1,0 +1,51 @@
+abhilash='long_box_dx2_7.dat'
+TTU_GWU='swap_traj_fit_8_1.dat'
+#'swap_traj_fit_4.dat'
+tmp_file='tmp.dat'
+
+
+fac =0.192
+#fac =0.37*0.5
+sc_AtoS = 0.5
+
+unset key
+#set grid
+set term png
+set output "parameter_match_3.png"
+set xrange [2:4]
+set xtics 2,0.4,4
+set xtics font ", 19"
+set yrange [-0.009:0.001]
+set ytics -0.009,0.002,0.001
+set ytics font ", 19"
+#set format y "%.0s*10^{%T}"
+
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3) w l, \
+TTU_GWU u (sc_AtoS*$1):(fac*$5) w l, \
+TTU_GWU u (sc_AtoS*$1):(fac*($5+$7)) w l lc "red", \
+tmp_file u (sc_AtoS*$1):(fac*($5+$7)) w l lc "orange"
+#TTU_GWU u (sc_AtoS*$1):($7) w l
+
+
+#TTU_GWU u (0.5*1):(($7)) w l, \
+#TTU_GWU u (0.5*1):(($5+$7)) w l
+pause -1
+
+#factor= GWU/TTU
+
+set output "parameter_match_4.png"
+set xrange [2:4]
+set xtics 2,0.4,4
+set xtics font ", 19"
+set yrange [-0.2:1.8]
+set ytics -0.2,0.4,1.8
+set ytics font ", 19"
+
+plot \
+TTU_GWU u (sc_AtoS*$1):(sc_AtoS*$3/($5*fac)) w l,\
+0.9
+
+pause -1
+

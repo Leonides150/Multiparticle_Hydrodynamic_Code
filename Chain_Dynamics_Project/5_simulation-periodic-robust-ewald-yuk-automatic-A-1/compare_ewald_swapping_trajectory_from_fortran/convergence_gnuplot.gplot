@@ -1,0 +1,22 @@
+set term png font "Helvetica" 26 size 1000,1000 enhanced
+
+set grid
+set xrange [0:25]
+
+set output 'convergence_x_dir_cells.png'
+plot 'dx_vel_n2m2.dat' u 1:3 w l lc 1,\
+     'dx_vel_n4m2.dat' u 1:3 w l lc 2,\
+     'dx_vel_n8m2.dat' u 1:3 w l lc 3
+     pause -1
+
+set output 'convergence_y_dir_cells.png'
+plot 'dx_vel_n2m2.dat' u 1:3 w l lc 1,\
+     'dx_vel_n2m4.dat' u 1:3 w l lc 2,\
+     'dx_vel_n2m8.dat' u 1:3 w l lc 3
+     pause -1
+
+set output 'convergence_xy_dir_cells.png'
+plot 'dx_vel_n2m2.dat' u 1:3 w l lc 1,\
+     'dx_vel_n4m4.dat' u 1:3 w l lc 2,\
+     'dx_vel_n8m8.dat' u 1:3 w l lc 3
+     pause -1
