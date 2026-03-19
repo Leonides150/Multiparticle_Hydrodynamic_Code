@@ -1,0 +1,80 @@
+###
+### set terminal postscript eps enhanced color font 'Helvetica,10'
+set term pngcairo size 1024,768
+
+lx=150.
+ly = 33.33
+frac=0.1
+
+###set xrange [-frac*lx:(1.+frac)*lx]
+### set yrange [-10:18]
+set yrange [-frac*ly:(1.+frac)*ly]
+set xrange [20:100]
+#set yrange [480:520]
+
+set size ratio -1
+set isosample 10000
+set nokey
+#unset tics
+
+rad=1
+
+#BOX
+set object 1 rect from 0,0 to lx,ly
+
+imax=2750
+incr1=5
+incr2=50
+k=30
+
+do for [i=1:imax]{
+
+### set label "Dipolar simulation "  at graph 0.33,1.04 left font "Helvetica,18"
+
+j=(i-1)*incr1
+
+#if (j > 1500) {
+ #  k=k+1
+ #  j=k*incr2
+ #  }
+
+       
+	
+
+dt=0.0125
+t_scale=0.096
+epsilon=0.2
+t=(dt*j)/(t_scale*epsilon)
+### set title sprintf("~{/Symbol g}{1.1.} t'=%.5f",t) offset 1 left font "Helvetica,15"
+set title sprintf("j=%i",j) font "Times-Roman,24"
+
+imagefile='M'.sprintf("%5.5i",i).'.png'
+###imagefile='M'.sprintf("%5.5i",i).'.eps'
+datafile='A'.sprintf("%5.5i",j).'.dat'
+
+
+print t
+print i
+print imagefile
+print datafile
+
+set output imagefile
+plot datafile u 2:3:(rad*$6) with circles lc rgb "black", \
+     datafile u ($2-$7):($3-$8):(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u ($2-$7):3:(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u ($2-$7):($3+$8):(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u 2:($3-$8):(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u 2:($3+$8):(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u ($2+$7):($3-$8):(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u ($2+$7):3:(rad*$6) with circles lc rgb "black" lw 1, \
+     datafile u ($2+$7):($3+$8):(rad*$6) with circles lc rgb "black" lw 1,\
+     datafile u 2:($8-$3):(rad*$6) with circles lc rgb "golden" lw 2,\
+     datafile u ($2+$7):($8-$3):(rad*$6) with circles lc rgb "golden" lw 2,\
+     datafile u ($2-$7):($8-$3):(rad*$6) with circles lc rgb "golden" lw 2,\
+     datafile u 2:(-$3):(rad*$6) with circles lc rgb "golden" lw 2,\
+     datafile u ($2-$7):(-$3):(rad*$6) with circles lc rgb "golden" lw 2,\
+     datafile u ($2+$7):(-$3):(rad*$6) with circles lc rgb "golden" lw 2
+pause 0
+}
+
+# fs solid 0.5 noborder

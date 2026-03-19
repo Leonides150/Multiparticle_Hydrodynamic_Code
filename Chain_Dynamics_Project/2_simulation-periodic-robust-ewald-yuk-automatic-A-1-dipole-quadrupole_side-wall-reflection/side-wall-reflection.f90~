@@ -1,0 +1,49 @@
+subroutine assign_side_wall_images(y,dy,y_sw,dy_sw)
+  use main_module
+  implicit none
+  real*8 :: y(numpar),dy(2*numpar),y_sw(4*numpar),dy_sw(4*numpar)
+  integer :: i,k
+  
+  k = 1
+
+  do i = 1,numpar
+     y_sw(2*i-1) = y(2*i-1)
+     y_sw(2*i) = y(2*i)
+
+     dy_sw(2*i-1) = dy(2*i-1)
+     dy_sw(2*i) = dy(2*i)
+  end do
+  
+  do i = numpar+1,2*numpar
+     y_sw(2*i-1) = y(2*k-1) !!!X-component position transfer to half-cell image
+     y_sw(2*i) = 0.5d0*Ly + y(2*k) !!!Y-component position transfer to half-cell image
+
+     dy_sw(2*i-1) = dy(2*k-1)  !!!X-component velocity transfer to half-cell image 
+     dy_sw(2*i) = -dy(2*k)  !!!Y-component negative velocity transfer to half-cell image
+     
+     k = k + 1
+  end do
+
+!  do i = 1,2*numpar
+!     write(*,*)'vel',i,'=',y_sw(2*i-1),y_sw(2*i),dy_sw(2*i-1),dy_sw(2*i)
+!  end do
+
+end subroutine assign_side_wall_images
+
+subroutine back_assign(y,dy,y_sw,dy_sw)
+  use main_module
+  implicit none
+  real*8 :: y(numpar),dy(2*numpar),y_sw(4*numpar),dy_sw(4*numpar)
+  integer :: i
+  
+  do i =1,numpar
+     
+     dy(2*i-1) = dy_sw(2*i-1)
+     dy(2*i) = dy_sw(2*i)
+
+!     write(*,*)i
+!     write(*,*)dy(2*i-1)
+!     write(*,*)dy(2*i)
+  end do
+
+end subroutine back_assign
