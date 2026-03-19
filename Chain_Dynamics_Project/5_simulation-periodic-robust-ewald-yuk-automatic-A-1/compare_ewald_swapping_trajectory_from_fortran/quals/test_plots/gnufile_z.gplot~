@@ -1,0 +1,18 @@
+#set xrange [0:60]
+
+###set term eps
+###set output 'z_vs_x.dat'
+
+plot "long_box_dx2_7.dat" u 2:3 w lp ls 7 lc "red",\
+     "long_box_dx8_0.dat" u 2:3 w l ls 6
+#     "long_box_dx2_7.dat" u 1:2 w lp ls 7 lc "blue",\
+        
+pause -1
+
+set autoscale x
+
+plot "long_box_dx8_0.dat" u 2:3 w l ls 6,\
+#     "long_box_dx8_0.dat" u 1:2 w l ls 1
+
+pause -1
+
