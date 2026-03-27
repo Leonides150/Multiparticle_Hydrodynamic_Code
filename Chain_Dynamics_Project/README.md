@@ -9,4 +9,4 @@ The main body of the code resides in the ```main.f90``` Fortran file. The ```Mak
 
 ##List of code variants:
 1. Consists of modules to simulate interactions between deformable drops in Poiseuille flow with variable deformability (equivalent to Capillary numbers).
-2. 
+2. Consists of augmentation made to the framework for including wall reflection to simulate an experimental setup in collaboration with [Siva Vanapalli Lab](https://www.linkedin.com/in/siva-vanapalli-7071a848/) 
